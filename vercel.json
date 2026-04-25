@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/ping",
-      "destination": "https://httpbin.org/get"
+      "source": "/",
+      "destination": "https://httpbin.org/html"
     }
   ]
 }
