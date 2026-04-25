@@ -1,8 +1,8 @@
 {
-  "buildCommand": "",
   "rewrites": [
     {
-      "source": "/twitch/token",
-      "destination": "https://id.twitch.tv/oauth2/token"
+      "source": "/twitch",
+      "destination": "https://id.twitch.tv/"
     }
+  ]
 }
