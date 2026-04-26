@@ -1,8 +1,20 @@
 {
   "rewrites": [
     {
-      "source": "/",
-      "destination": "https://httpbin.org/html"
+      "source": "/proxy/:match/:path*",
+      "destination": "https://:match/:path*"
+    },
+    {
+      "source": "/proxy/:match/:path*/",
+      "destination": "https://:match/:path*/"
+    },
+    {
+      "source": "/httpproxy/:match/:path*",
+      "destination": "http://:match/:path*"
+    },
+    {
+      "source": "/httpproxy/:match/:path*/",
+      "destination": "http://:match/:path*/"
     }
   ]
 }
